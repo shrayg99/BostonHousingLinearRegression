@@ -7,9 +7,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
       <li><a href="#project-goals">Project Goals</a></li>
       <li><a href="#why-it-is-important">Why It's Important</a></li>
     </li>
@@ -47,14 +44,6 @@ The Boston Housing dataset contains data points about houses and neighborhoods i
 * black: Proportion of the population identifying as Black.
 * lstat: Percentage of the population considered lower status.
 * medv: Median value of owner-occupied homes in $1000s (target variable).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Built With
-
-* <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn" width="50" height="50">
-* <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" alt="NumPy" width="50" height="50">
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
