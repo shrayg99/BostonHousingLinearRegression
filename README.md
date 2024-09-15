@@ -52,14 +52,10 @@ The Boston Housing dataset contains data points about houses and neighborhoods i
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* ![scikit-learn](https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg)
+* ![NumPy](https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg)
+* ![Pandas](https://pandas.pydata.org/static/img/pandas.svg)
+* ![Matplotlib](https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,38 +84,41 @@ The primary goal of the Boston Housing Project is to predict the median value of
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Here’s a step-by-step guide to running a linear regression model, including the installations and basic steps using Python. The most common libraries for this task are `NumPy`, `Pandas`, `Matplotlib`, and `Scikit-learn`.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Check for `apt` update and install `pip`.
+* bash
   ```sh
-  npm install npm@latest -g
+  sudo apt update       # for Debian/Ubuntu systems
+  sudo apt install python3-pip
   ```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_If you don't have the necessary libraries installed, you can use `pip` to install them._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Install `NumPy`, `Pandas`, `Matplotlib`, and `Scikit-learn`
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   pip install numpy pandas scikit-learn matplotlib
    ```
-3. Install NPM packages
+   
+   These libraries serve different purposes:
+    * `numpy`: for numerical computations.
+    * `pandas`: for data manipulation and analysis.
+    * `scikit-learn`: for machine learning algorithms, including linear regression.
+    * `matplotlib`: for plotting and visualizing data.
+
+2. Import Libraries
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
+   import pandas as pd
+   import numpy as np
+   from sklearn.model_selection import train_test_split, cross_val_score
+   from sklearn.linear_model import LinearRegression
+   from sklearn.preprocessing import StandardScaler, PolynomialFeatures
+   from sklearn.metrics import mean_squared_error, r2_score
+   import matplotlib.pyplot as plt
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -132,6 +131,17 @@ _Below is an example of how you can instruct your audience on installing and set
 * Multicollinearity: Features may be highly correlated, which can distort the model's performance in linear regression.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+Summary of Steps:
+1. Install necessary libraries (numpy, pandas, scikit-learn, matplotlib).
+2. Import the libraries.
+3. Load or create a dataset.
+4. Preprocess and clean the data.
+5. Split the data into training and testing sets.
+6. Create and train the linear regression model.
+7. Make predictions on the test set.
+8. Evaluate the model using metrics like MSE and R-squared.
+9. Visualize the regression line (if applicable).
 
 
 <!-- APPLICATIONS -->
