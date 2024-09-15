@@ -6,7 +6,12 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
+       <li>
       <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
       <li><a href="#project-goals">Project Goals</a></li>
       <li><a href="#why-it-is-important">Why It's Important</a></li>
     </li>
@@ -45,7 +50,41 @@ The Boston Housing dataset contains data points about houses and neighborhoods i
 * lstat: Percentage of the population considered lower status.
 * medv: Median value of owner-occupied homes in $1000s (target variable).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back To Top</a>)</p>
+
+### Built With:
+<br/>
+<p align="left">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn" height="50"/>
+
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24.2-blue)](https://scikit-learn.org/)
+
+  <br/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" alt="pandas" height="50"/>
+
+[![pandas](https://img.shields.io/badge/pandas-1.5.0-blue)](https://pandas.pydata.org/)
+
+<br/>
+<br/>  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/NumPy_logo.svg" alt="numpy" height="50"/>
+  
+[![numpy](https://img.shields.io/badge/NumPy-1.24.2-blue)](https://numpy.org/)
+
+  <br/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" alt="PyTorch" height="50"/>
+  
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0.0-blue)](https://pytorch.org/)
+  
+  <br/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="matplotlib" height="50"/>
+  
+[![matplotlib](https://img.shields.io/badge/matplotlib-3.7.1-blue)](https://matplotlib.org/)
+
+<br/>
+</p>
+
+<p align="right">(<a href="#readme-top">Back To Top</a>)</p>
+
 
 <!-- PROJECT GOALS -->
 ## Project Goals
@@ -58,7 +97,7 @@ The primary goal of the Boston Housing Project is to predict the median value of
 4. Model Evaluation: Using metrics such as Mean Squared Error (MSE) and R-squared (R²) to measure the model's performance.
 5. Visualization: Plotting predictions against actual values to visualize how well the model performs.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back To Top</a>)</p>
 
 <!-- WHY IT'S IMPORTANT -->
 ## Why It Is Important
@@ -67,7 +106,7 @@ The primary goal of the Boston Housing Project is to predict the median value of
 * Feature Engineering: The project can showcase various methods for improving models, such as adding interaction terms, feature scaling, and transforming skewed data.
 * Interpretable Models: Linear regression is a highly interpretable model, meaning we can directly understand the impact of each feature on housing prices.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back To Top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -120,7 +159,7 @@ _If you don't have the necessary libraries installed, you can use `pip` to insta
       8. Evaluate the model using metrics like MSE and R-squared.
       9. Visualize the regression line (if applicable).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back To Top</a>)</p>
 
 <!-- CHALLENGES IN THE PROJECT -->
 ## Challenges in the Project
@@ -129,10 +168,13 @@ _If you don't have the necessary libraries installed, you can use `pip` to insta
 * Outliers: The presence of outliers, such as extreme values for crime rates or house prices, can heavily influence the model, leading to poor predictions.
 * Multicollinearity: Features may be highly correlated, which can distort the model's performance in linear regression.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Back To Top</a>)</p>
 
 <!-- APPLICATIONS -->
 ## Applications
 
 * Real Estate Analytics: This project is valuable for understanding factors that affect property values, helping homeowners, buyers, and real estate agents.
 * Urban Planning: The insights gained from analyzing features like pollution levels, crime rates, and distance to employment centers can aid urban planners in improving cities.
+
+<p align="right">(<a href="#readme-top">Back To Top</a>)</p>
+  
