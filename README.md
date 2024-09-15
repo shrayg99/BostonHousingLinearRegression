@@ -52,10 +52,9 @@ The Boston Housing dataset contains data points about houses and neighborhoods i
 
 ### Built With
 
-* ![scikit-learn](https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg)
-* ![NumPy](https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg)
-* ![Pandas](https://pandas.pydata.org/static/img/pandas.svg)
-* ![Matplotlib](https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg)
+* <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn" width="50" height="50">
+* <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" alt="NumPy" width="50" height="50">
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
