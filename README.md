@@ -109,6 +109,17 @@ _If you don't have the necessary libraries installed, you can use `pip` to insta
    import matplotlib.pyplot as plt
    ```
 
+     Summary of Steps:
+      1. Install necessary libraries (numpy, pandas, scikit-learn, matplotlib).
+      2. Import the libraries.
+      3. Load or create a dataset.
+      4. Preprocess and clean the data.
+      5. Split the data into training and testing sets.
+      6. Create and train the linear regression model.
+      7. Make predictions on the test set.
+      8. Evaluate the model using metrics like MSE and R-squared.
+      9. Visualize the regression line (if applicable).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CHALLENGES IN THE PROJECT -->
@@ -119,18 +130,6 @@ _If you don't have the necessary libraries installed, you can use `pip` to insta
 * Multicollinearity: Features may be highly correlated, which can distort the model's performance in linear regression.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-Summary of Steps:
-1. Install necessary libraries (numpy, pandas, scikit-learn, matplotlib).
-2. Import the libraries.
-3. Load or create a dataset.
-4. Preprocess and clean the data.
-5. Split the data into training and testing sets.
-6. Create and train the linear regression model.
-7. Make predictions on the test set.
-8. Evaluate the model using metrics like MSE and R-squared.
-9. Visualize the regression line (if applicable).
-
 
 <!-- APPLICATIONS -->
 ## Applications
