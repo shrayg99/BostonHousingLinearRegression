@@ -9,7 +9,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib.pyplot as plt
 
 # Load the dataset
-data = pd.read_csv('/home/shray/Computer Vision/Codes/boston housing/boston-housing-dataset/train.csv')
+data = pd.read_csv('boston housing/boston-housing-dataset/train.csv')
 # data
 
 # drop ID column
